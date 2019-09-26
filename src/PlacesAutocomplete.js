@@ -321,6 +321,7 @@ class PlacesAutocomplete extends React.Component {
   };
 
   handleSuggestionMouseEnter = index => {
+    this.mousedownOnSuggestion = true;
     this.setActiveAtIndex(index);
   };
 
